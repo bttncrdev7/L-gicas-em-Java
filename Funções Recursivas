@@ -1,0 +1,15 @@
+public class FuncoesRecursivas {
+int fatorial(int n ){
+if(n == 0 || n == 1){
+return 1;
+}else {
+return n * fatorial(n -1)
+}
+}
+public static void main(String [] args) {
+FuncoesRecursivas exemplo = new FuncoesRecursivas(); 
+int numero = 10; 
+int resultado = exemplo.fatorial(numero);
+System.out.println(resultado)
+}
+}
